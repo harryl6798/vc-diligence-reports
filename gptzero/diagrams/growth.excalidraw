@@ -1,0 +1,70 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "line-axis-y",
+      "type": "line",
+      "x": 100,
+      "y": 100,
+      "width": 0,
+      "height": 200,
+      "points": [[0, 0], [0, 200]]
+    },
+    {
+      "id": "line-axis-x",
+      "type": "line",
+      "x": 100,
+      "y": 300,
+      "width": 400,
+      "height": 0,
+      "points": [[0, 0], [400, 0]]
+    },
+    {
+      "id": "line-growth",
+      "type": "line",
+      "x": 100,
+      "y": 280,
+      "width": 300,
+      "height": -150,
+      "strokeColor": "#40c057",
+      "strokeWidth": 4,
+      "points": [[0, 0], [100, -20], [200, -80], [300, -150]]
+    },
+    {
+      "id": "text-2023",
+      "type": "text",
+      "x": 100,
+      "y": 310,
+      "text": "Jan 23 (Launch)"
+    },
+    {
+      "id": "text-2024",
+      "type": "text",
+      "x": 200,
+      "y": 310,
+      "text": "2024 ($7M ARR)"
+    },
+    {
+      "id": "text-2025",
+      "type": "text",
+      "x": 350,
+      "y": 310,
+      "text": "2025E ($24M ARR)"
+    },
+    {
+      "id": "text-velocity",
+      "type": "text",
+      "x": 200,
+      "y": 150,
+      "text": "250% YoY Growth",
+      "fontSize": 20,
+      "strokeColor": "#40c057"
+    }
+  ],
+  "appState": {
+    "viewBackgroundColor": "#ffffff",
+    "gridSize": 20
+  }
+}

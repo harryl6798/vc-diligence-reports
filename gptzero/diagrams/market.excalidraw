@@ -1,0 +1,77 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "rect-education",
+      "type": "rectangle",
+      "x": 100,
+      "y": 100,
+      "width": 250,
+      "height": 100,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#fff0f6",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": { "type": 3 },
+      "locked": false,
+      "text": "Academic Integrity\n(Turnitin Displacement)\n\nMoat: AFT Partnership"
+    },
+    {
+      "id": "rect-enterprise",
+      "type": "rectangle",
+      "x": 400,
+      "y": 100,
+      "width": 250,
+      "height": 100,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#f3f0ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": { "type": 3 },
+      "locked": false,
+      "text": "Enterprise Compliance\n(Hiring, Legal, Grants)\n\nMoat: Authorship Telemetry"
+    },
+    {
+      "id": "rect-data",
+      "type": "rectangle",
+      "x": 250,
+      "y": 250,
+      "width": 300,
+      "height": 100,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#e3fafc",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": { "type": 3 },
+      "locked": false,
+      "text": "AI Training Data Licensing\n(Preventing Model Collapse)\n\nMoat: 600M+ Verified Docs"
+    },
+    {
+      "id": "text-title",
+      "type": "text",
+      "x": 250,
+      "y": 50,
+      "width": 300,
+      "height": 30,
+      "text": "GPTZero Strategic Market Pillars",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center"
+    }
+  ],
+  "appState": {
+    "viewBackgroundColor": "#ffffff",
+    "gridSize": 20
+  }
+}
