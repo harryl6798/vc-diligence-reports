@@ -37,7 +37,7 @@
       "type": "text",
       "x": 100,
       "y": 310,
-      "text": "Jan 23 (Launch)"
+      "text": "Jan 23 ($0)"
     },
     {
       "id": "text-2024",
@@ -58,7 +58,7 @@
       "type": "text",
       "x": 200,
       "y": 150,
-      "text": "250% YoY Growth",
+      "text": "253% YoY Growth\n(Profitable)",
       "fontSize": 20,
       "strokeColor": "#40c057"
     }

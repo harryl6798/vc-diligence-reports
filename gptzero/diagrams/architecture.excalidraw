@@ -6,10 +6,10 @@
     {
       "id": "rect-input",
       "type": "rectangle",
-      "x": 100,
-      "y": 100,
-      "width": 200,
-      "height": 60,
+      "x": 50,
+      "y": 150,
+      "width": 180,
+      "height": 80,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "#f8f9fa",
       "fillStyle": "solid",
@@ -19,15 +19,15 @@
       "opacity": 100,
       "roundness": { "type": 3 },
       "locked": false,
-      "text": "Input Text / Document"
+      "text": "Input Content\n(Text/Docs)"
     },
     {
       "id": "rect-telemetry",
       "type": "rectangle",
-      "x": 100,
-      "y": 200,
-      "width": 200,
-      "height": 60,
+      "x": 50,
+      "y": 300,
+      "width": 180,
+      "height": 80,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "#e7f5ff",
       "fillStyle": "solid",
@@ -37,15 +37,15 @@
       "opacity": 100,
       "roundness": { "type": 3 },
       "locked": false,
-      "text": "Writing Telemetry\n(Typing Cadence)"
+      "text": "Origin Telemetry\n(Keystroke/Paste)"
     },
     {
       "id": "rect-ensemble",
       "type": "rectangle",
-      "x": 400,
+      "x": 300,
       "y": 100,
-      "width": 250,
-      "height": 160,
+      "width": 300,
+      "height": 350,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "#fff4e6",
       "fillStyle": "solid",
@@ -55,15 +55,15 @@
       "opacity": 100,
       "roundness": { "type": 3 },
       "locked": false,
-      "text": "7-Layer Ensemble Engine\n\n1. Perplexity\n2. Burstiness\n3. Deep Learning\n4. Adversarial Shield\n5. Education Module"
+      "text": "7-Layer Hierarchical Ensemble\n\nL1: Perplexity Engine\nL2: Burstiness Metric\nL3: GPTZeroX (Sentence)\nL4: Deep Learning Layer\nL5: Education/ESL Module\nL6: Source/Internet Search\nL7: GPTZero Shield (Adversarial)"
     },
     {
-      "id": "rect-verdict",
+      "id": "rect-judge",
       "type": "rectangle",
-      "x": 750,
-      "y": 150,
+      "x": 650,
+      "y": 230,
       "width": 200,
-      "height": 60,
+      "height": 100,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "#ebfbee",
       "fillStyle": "solid",
@@ -73,43 +73,73 @@
       "opacity": 100,
       "roundness": { "type": 3 },
       "locked": false,
-      "text": "Authorship Report\n(Human vs AI %)"
+      "text": "Final Inference Judge\n(Neural Aggregator)\n\nVerdict: Human/AI/Mixed"
+    },
+    {
+      "id": "rect-output",
+      "type": "rectangle",
+      "x": 900,
+      "y": 240,
+      "width": 180,
+      "height": 80,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#f1f3f5",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": { "type": 3 },
+      "locked": false,
+      "text": "Authorship Report\n(PDF/API)"
     },
     {
       "id": "arrow-1",
       "type": "arrow",
-      "x": 300,
-      "y": 130,
-      "width": 100,
+      "x": 230,
+      "y": 190,
+      "width": 70,
       "height": 0,
       "strokeColor": "#1e1e1e",
       "strokeWidth": 2,
       "strokeStyle": "solid",
-      "points": [[0, 0], [100, 0]]
+      "points": [[0, 0], [70, 0]]
     },
     {
       "id": "arrow-2",
       "type": "arrow",
-      "x": 300,
-      "y": 230,
-      "width": 100,
+      "x": 230,
+      "y": 340,
+      "width": 70,
       "height": -50,
       "strokeColor": "#1e1e1e",
       "strokeWidth": 2,
       "strokeStyle": "solid",
-      "points": [[0, 0], [100, -50]]
+      "points": [[0, 0], [70, -50]]
     },
     {
       "id": "arrow-3",
       "type": "arrow",
-      "x": 650,
-      "y": 180,
-      "width": 100,
+      "x": 600,
+      "y": 280,
+      "width": 50,
       "height": 0,
       "strokeColor": "#1e1e1e",
       "strokeWidth": 2,
       "strokeStyle": "solid",
-      "points": [[0, 0], [100, 0]]
+      "points": [[0, 0], [50, 0]]
+    },
+    {
+      "id": "arrow-4",
+      "type": "arrow",
+      "x": 850,
+      "y": 280,
+      "width": 50,
+      "height": 0,
+      "strokeColor": "#1e1e1e",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "points": [[0, 0], [50, 0]]
     }
   ],
   "appState": {

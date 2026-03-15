@@ -4,12 +4,12 @@
   "source": "https://excalidraw.com",
   "elements": [
     {
-      "id": "rect-education",
+      "id": "rect-edu",
       "type": "rectangle",
       "x": 100,
       "y": 100,
       "width": 250,
-      "height": 100,
+      "height": 120,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "#fff0f6",
       "fillStyle": "solid",
@@ -19,15 +19,15 @@
       "opacity": 100,
       "roundness": { "type": 3 },
       "locked": false,
-      "text": "Academic Integrity\n(Turnitin Displacement)\n\nMoat: AFT Partnership"
+      "text": "Academic Integrity\n(Primary Wedge)\n\nTargets: Schools, Districts\nMoat: AFT Partnership (1.7M)"
     },
     {
-      "id": "rect-enterprise",
+      "id": "rect-ent",
       "type": "rectangle",
       "x": 400,
       "y": 100,
       "width": 250,
-      "height": 100,
+      "height": 120,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "#f3f0ff",
       "fillStyle": "solid",
@@ -37,15 +37,15 @@
       "opacity": 100,
       "roundness": { "type": 3 },
       "locked": false,
-      "text": "Enterprise Compliance\n(Hiring, Legal, Grants)\n\nMoat: Authorship Telemetry"
+      "text": "Enterprise Compliance\n(Expansion Phase)\n\nTargets: Hiring, Media, Legal\nMoat: Authorship Telemetry"
     },
     {
       "id": "rect-data",
       "type": "rectangle",
       "x": 250,
-      "y": 250,
+      "y": 280,
       "width": 300,
-      "height": 100,
+      "height": 120,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "#e3fafc",
       "fillStyle": "solid",
@@ -55,19 +55,7 @@
       "opacity": 100,
       "roundness": { "type": 3 },
       "locked": false,
-      "text": "AI Training Data Licensing\n(Preventing Model Collapse)\n\nMoat: 600M+ Verified Docs"
-    },
-    {
-      "id": "text-title",
-      "type": "text",
-      "x": 250,
-      "y": 50,
-      "width": 300,
-      "height": 30,
-      "text": "GPTZero Strategic Market Pillars",
-      "fontSize": 20,
-      "fontFamily": 1,
-      "textAlign": "center"
+      "text": "AI Training Integrity\n(The High-Margin Flip)\n\nTargets: LLM Labs (OpenAI, etc)\nMoat: 600M Human Ground Truth Docs"
     }
   ],
   "appState": {
