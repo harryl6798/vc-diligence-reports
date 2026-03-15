@@ -1,0 +1,181 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "rect-input",
+      "type": "rectangle",
+      "x": 50,
+      "y": 150,
+      "width": 200,
+      "height": 100,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#f8f9fa",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roundness": { "type": 3 },
+      "boundElements": [{ "id": "text-input", "type": "text" }]
+    },
+    {
+      "id": "text-input",
+      "type": "text",
+      "containerId": "rect-input",
+      "text": "Input Node:\nRaw DICOM Image\n(Pixels/Voxels)\n*Zero-Touch PHI Scrub*",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "fontSize": 14,
+      "fontFamily": 3,
+      "x": 60, "y": 165, "width": 180, "height": 70
+    },
+    {
+      "id": "rect-vit",
+      "type": "rectangle",
+      "x": 350,
+      "y": 50,
+      "width": 250,
+      "height": 80,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#fff4e6",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roundness": { "type": 3 },
+      "boundElements": [{ "id": "text-vit", "type": "text" }]
+    },
+    {
+      "id": "text-vit",
+      "type": "text",
+      "containerId": "rect-vit",
+      "text": "Base Layer: Vision Transformer\nExtracts dense latent\nrepresentations",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "fontSize": 14,
+      "fontFamily": 3,
+      "x": 360, "y": 65, "width": 230, "height": 50
+    },
+    {
+      "id": "rect-sae",
+      "type": "rectangle",
+      "x": 350,
+      "y": 160,
+      "width": 250,
+      "height": 100,
+      "strokeColor": "#6d28d9",
+      "backgroundColor": "#ddd6fe",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roundness": { "type": 3 },
+      "boundElements": [{ "id": "text-sae", "type": "text" }]
+    },
+    {
+      "id": "text-sae",
+      "type": "text",
+      "containerId": "rect-sae",
+      "text": "The Moat Layer: Gated SAE\nDecomposes latents into\ninterpretable features\n(e.g., #1024: Pleural Effusion)",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "fontSize": 14,
+      "fontFamily": 3,
+      "x": 360, "y": 170, "width": 230, "height": 80
+    },
+    {
+      "id": "rect-llm",
+      "type": "rectangle",
+      "x": 350,
+      "y": 290,
+      "width": 250,
+      "height": 80,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#fff4e6",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roundness": { "type": 3 },
+      "boundElements": [{ "id": "text-llm", "type": "text" }]
+    },
+    {
+      "id": "text-llm",
+      "type": "text",
+      "containerId": "rect-llm",
+      "text": "Aggregation Layer: LLM\nCompiles discrete features\ninto a fluent report",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "fontSize": 14,
+      "fontFamily": 3,
+      "x": 360, "y": 305, "width": 230, "height": 50
+    },
+    {
+      "id": "rect-output",
+      "type": "rectangle",
+      "x": 700,
+      "y": 160,
+      "width": 220,
+      "height": 100,
+      "strokeColor": "#047857",
+      "backgroundColor": "#a7f3d0",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roundness": { "type": 3 },
+      "boundElements": [{ "id": "text-output", "type": "text" }]
+    },
+    {
+      "id": "text-output",
+      "type": "text",
+      "containerId": "rect-output",
+      "text": "Output Node:\nDraft Radiology Report\n(Mapped to HL7 FHIR)",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "fontSize": 14,
+      "fontFamily": 3,
+      "x": 710, "y": 180, "width": 200, "height": 60
+    },
+    {
+      "id": "arrow-in-vit",
+      "type": "arrow",
+      "x": 250, "y": 200,
+      "width": 100, "height": -110,
+      "strokeColor": "#1e3a5f",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "points": [[0, 0], [100, -110]]
+    },
+    {
+      "id": "arrow-vit-sae",
+      "type": "arrow",
+      "x": 475, "y": 130,
+      "width": 0, "height": 30,
+      "strokeColor": "#1e3a5f",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "points": [[0, 0], [0, 30]]
+    },
+    {
+      "id": "arrow-sae-llm",
+      "type": "arrow",
+      "x": 475, "y": 260,
+      "width": 0, "height": 30,
+      "strokeColor": "#1e3a5f",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "points": [[0, 0], [0, 30]]
+    },
+    {
+      "id": "arrow-llm-out",
+      "type": "arrow",
+      "x": 600, "y": 330,
+      "width": 100, "height": -120,
+      "strokeColor": "#1e3a5f",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "points": [[0, 0], [100, -120]]
+    }
+  ],
+  "appState": {
+    "viewBackgroundColor": "#ffffff",
+    "gridSize": 20
+  }
+}

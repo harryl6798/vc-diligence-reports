@@ -1,0 +1,111 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "line-y",
+      "type": "line",
+      "x": 100,
+      "y": 100,
+      "width": 0,
+      "height": 200,
+      "strokeColor": "#1e3a5f",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "points": [[0, 0], [0, 200]]
+    },
+    {
+      "id": "line-x",
+      "type": "line",
+      "x": 100,
+      "y": 300,
+      "width": 400,
+      "height": 0,
+      "strokeColor": "#1e3a5f",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "points": [[0, 0], [400, 0]]
+    },
+    {
+      "id": "line-curve",
+      "type": "line",
+      "x": 100,
+      "y": 280,
+      "width": 300,
+      "height": -150,
+      "strokeColor": "#3b82f6",
+      "strokeWidth": 4,
+      "strokeStyle": "solid",
+      "points": [[0, 0], [150, -50], [300, -150]]
+    },
+    {
+      "id": "text-y-label",
+      "type": "text",
+      "x": 40,
+      "y": 150,
+      "text": "Throughput\n(Scans/Hr)",
+      "fontSize": 14,
+      "fontFamily": 3,
+      "strokeColor": "#1e3a5f",
+      "angle": -1.5708
+    },
+    {
+      "id": "text-start",
+      "type": "text",
+      "x": 100,
+      "y": 310,
+      "text": "2024 (1 scan / hr)",
+      "fontSize": 14,
+      "fontFamily": 3
+    },
+    {
+      "id": "text-seed",
+      "type": "text",
+      "x": 200,
+      "y": 310,
+      "text": "Nov '25 ($4.1M Seed)",
+      "fontSize": 14,
+      "fontFamily": 3
+    },
+    {
+      "id": "text-end",
+      "type": "text",
+      "x": 380,
+      "y": 310,
+      "text": "Early '26 (12x Multiplier)",
+      "fontSize": 14,
+      "fontFamily": 3
+    },
+    {
+      "id": "rect-margin",
+      "type": "rectangle",
+      "x": 150,
+      "y": 100,
+      "width": 200,
+      "height": 60,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roundness": { "type": 3 },
+      "boundElements": [{ "id": "text-margin", "type": "text" }]
+    },
+    {
+      "id": "text-margin",
+      "type": "text",
+      "containerId": "rect-margin",
+      "text": "Compute-Efficiency Moat\n(Model 100x smaller than Med-PaLM)",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "fontSize": 12,
+      "fontFamily": 3,
+      "x": 160, "y": 110, "width": 180, "height": 40
+    }
+  ],
+  "appState": {
+    "viewBackgroundColor": "#ffffff",
+    "gridSize": 20
+  }
+}
