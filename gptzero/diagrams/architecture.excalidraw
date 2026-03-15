@@ -19,7 +19,7 @@
       "opacity": 100,
       "roundness": { "type": 3 },
       "locked": false,
-      "text": "Input Content\n(Text/Docs)"
+      "text": "Input Content\n(Static Text)"
     },
     {
       "id": "rect-telemetry",
@@ -37,7 +37,7 @@
       "opacity": 100,
       "roundness": { "type": 3 },
       "locked": false,
-      "text": "Origin Telemetry\n(Keystroke/Paste)"
+      "text": "Origin Telemetry\n(Keystroke/Revision)"
     },
     {
       "id": "rect-ensemble",
@@ -55,10 +55,10 @@
       "opacity": 100,
       "roundness": { "type": 3 },
       "locked": false,
-      "text": "7-Layer Hierarchical Ensemble\n\nL1: Perplexity Engine\nL2: Burstiness Metric\nL3: GPTZeroX (Sentence)\nL4: Deep Learning Layer\nL5: Education/ESL Module\nL6: Source/Internet Search\nL7: GPTZero Shield (Adversarial)"
+      "text": "7-Layer Hierarchical Ensemble\n\nL1: Perplexity Engine\nL2: Burstiness Metric\nL3: GPTZeroX (Sentence)\nL4: Deep Core Aggregator\nL5: Education/ESL Module\nL6: Academic Source Search\nL7: Shield (Adversarial)"
     },
     {
-      "id": "rect-judge",
+      "id": "rect-output",
       "type": "rectangle",
       "x": 650,
       "y": 230,
@@ -73,73 +73,7 @@
       "opacity": 100,
       "roundness": { "type": 3 },
       "locked": false,
-      "text": "Final Inference Judge\n(Neural Aggregator)\n\nVerdict: Human/AI/Mixed"
-    },
-    {
-      "id": "rect-output",
-      "type": "rectangle",
-      "x": 900,
-      "y": 240,
-      "width": 180,
-      "height": 80,
-      "strokeColor": "#1e1e1e",
-      "backgroundColor": "#f1f3f5",
-      "fillStyle": "solid",
-      "strokeWidth": 2,
-      "strokeStyle": "solid",
-      "roughness": 1,
-      "opacity": 100,
-      "roundness": { "type": 3 },
-      "locked": false,
-      "text": "Authorship Report\n(PDF/API)"
-    },
-    {
-      "id": "arrow-1",
-      "type": "arrow",
-      "x": 230,
-      "y": 190,
-      "width": 70,
-      "height": 0,
-      "strokeColor": "#1e1e1e",
-      "strokeWidth": 2,
-      "strokeStyle": "solid",
-      "points": [[0, 0], [70, 0]]
-    },
-    {
-      "id": "arrow-2",
-      "type": "arrow",
-      "x": 230,
-      "y": 340,
-      "width": 70,
-      "height": -50,
-      "strokeColor": "#1e1e1e",
-      "strokeWidth": 2,
-      "strokeStyle": "solid",
-      "points": [[0, 0], [70, -50]]
-    },
-    {
-      "id": "arrow-3",
-      "type": "arrow",
-      "x": 600,
-      "y": 280,
-      "width": 50,
-      "height": 0,
-      "strokeColor": "#1e1e1e",
-      "strokeWidth": 2,
-      "strokeStyle": "solid",
-      "points": [[0, 0], [50, 0]]
-    },
-    {
-      "id": "arrow-4",
-      "type": "arrow",
-      "x": 850,
-      "y": 280,
-      "width": 50,
-      "height": 0,
-      "strokeColor": "#1e1e1e",
-      "strokeWidth": 2,
-      "strokeStyle": "solid",
-      "points": [[0, 0], [50, 0]]
+      "text": "Final Authorship Report\n(Human vs AI Verification)"
     }
   ],
   "appState": {

@@ -4,7 +4,7 @@
   "source": "https://excalidraw.com",
   "elements": [
     {
-      "id": "line-axis-y",
+      "id": "line-y",
       "type": "line",
       "x": 100,
       "y": 100,
@@ -13,7 +13,7 @@
       "points": [[0, 0], [0, 200]]
     },
     {
-      "id": "line-axis-x",
+      "id": "line-x",
       "type": "line",
       "x": 100,
       "y": 300,
@@ -22,45 +22,36 @@
       "points": [[0, 0], [400, 0]]
     },
     {
-      "id": "line-growth",
+      "id": "line-curve",
       "type": "line",
       "x": 100,
       "y": 280,
-      "width": 300,
+      "width": 350,
       "height": -150,
       "strokeColor": "#40c057",
       "strokeWidth": 4,
-      "points": [[0, 0], [100, -20], [200, -80], [300, -150]]
+      "points": [[0, 0], [100, -20], [200, -80], [350, -150]]
     },
     {
-      "id": "text-2023",
+      "id": "text-23",
       "type": "text",
       "x": 100,
       "y": 310,
-      "text": "Jan 23 ($0)"
+      "text": "Jan 23"
     },
     {
-      "id": "text-2024",
+      "id": "text-24",
       "type": "text",
       "x": 200,
       "y": 310,
-      "text": "2024 ($7M ARR)"
+      "text": "2024 ($7M)"
     },
     {
-      "id": "text-2025",
+      "id": "text-25",
       "type": "text",
-      "x": 350,
+      "x": 400,
       "y": 310,
-      "text": "2025E ($24M ARR)"
-    },
-    {
-      "id": "text-velocity",
-      "type": "text",
-      "x": 200,
-      "y": 150,
-      "text": "253% YoY Growth\n(Profitable)",
-      "fontSize": 20,
-      "strokeColor": "#40c057"
+      "text": "2025E ($24M)"
     }
   ],
   "appState": {

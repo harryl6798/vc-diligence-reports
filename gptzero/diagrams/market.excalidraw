@@ -4,7 +4,7 @@
   "source": "https://excalidraw.com",
   "elements": [
     {
-      "id": "rect-edu",
+      "id": "rect-turnitin",
       "type": "rectangle",
       "x": 100,
       "y": 100,
@@ -19,10 +19,10 @@
       "opacity": 100,
       "roundness": { "type": 3 },
       "locked": false,
-      "text": "Academic Integrity\n(Primary Wedge)\n\nTargets: Schools, Districts\nMoat: AFT Partnership (1.7M)"
+      "text": "Turnitin (Slow Giant)\n\nMoat: Legacy LMS Lock-in\nWeakness: Punitive/Opaque"
     },
     {
-      "id": "rect-ent",
+      "id": "rect-gptzero",
       "type": "rectangle",
       "x": 400,
       "y": 100,
@@ -37,10 +37,10 @@
       "opacity": 100,
       "roundness": { "type": 3 },
       "locked": false,
-      "text": "Enterprise Compliance\n(Expansion Phase)\n\nTargets: Hiring, Media, Legal\nMoat: Authorship Telemetry"
+      "text": "GPTZero (Disrupter)\n\nMoat: Authorship Telemetry\nWedge: Student-First (Origin)"
     },
     {
-      "id": "rect-data",
+      "id": "rect-labs",
       "type": "rectangle",
       "x": 250,
       "y": 280,
@@ -55,7 +55,7 @@
       "opacity": 100,
       "roundness": { "type": 3 },
       "locked": false,
-      "text": "AI Training Integrity\n(The High-Margin Flip)\n\nTargets: LLM Labs (OpenAI, etc)\nMoat: 600M Human Ground Truth Docs"
+      "text": "LLM Labs (Strategic Channel)\n\nService: Ground Truth Licensing\nValue: Preventing Model Collapse"
     }
   ],
   "appState": {
