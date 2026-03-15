@@ -1,4 +1,4 @@
-# Investment Memorandum: GPTZero Inc. (V10 Master Edition)
+# Investment Memorandum: GPTZero Inc. (Master V16 Edition)
 ![GPTZero Logo](../assets/og_image.png)
 
 **Date**: March 15, 2026
@@ -11,7 +11,7 @@ GPTZero has successfully completed its transition from a viral academic detector
 ## 2. KEY INVESTMENT HIGHLIGHTS
 - **Unrivaled Founder-Market Fit**: Edward Tian (Princeton CS/Journalism) provides the narrative alpha needed to lead the "AI transparency" movement, while Alex Cui (UofT/Waabi) anchors the technical moat with research originally developed for autonomous vehicle trajectory forecasting.
 - **The "Authorship" Moat**: Unlike competitors who rely on static text analysis, GPTZero Docs tracks typing telemetry and revision history. This browser-level telemetry is nearly impossible to fake without massive compute costs, creating a permanent structural advantage.
-- **Enterprise-Grade Distribution**: The 1.7M-member AFT partnership and the California CITE statewide framework agreement provide a massive top-down moat against emerging challengers like Originality.ai.
+- **Enterprise-Grade Distribution**: The 1.7M-member AFT partnership and the OMNIA Partners/K16 national contract vehicle provide a massive top-down moat against emerging challengers.
 - **High-Margin Strategic Flip**: As "Model Collapse" (AI models training on AI data) becomes a systemic risk for frontier labs, GPTZero's 600M+ verified human document database becomes a high-margin strategic asset for licensing "Ground Truth" data.
 
 ## 3. TRAJECTORY & ECONOMICS

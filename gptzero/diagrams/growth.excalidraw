@@ -22,7 +22,7 @@
       "points": [[0, 0], [400, 0]]
     },
     {
-      "id": "line-curve",
+      "id": "line-growth",
       "type": "line",
       "x": 100,
       "y": 280,
@@ -37,21 +37,41 @@
       "type": "text",
       "x": 100,
       "y": 310,
-      "text": "Jan 23"
+      "text": "Jan 23 (Launch)"
     },
     {
       "id": "text-24",
       "type": "text",
       "x": 200,
       "y": 310,
-      "text": "2024 ($7M)"
+      "text": "2024 ($7M ARR)"
     },
     {
       "id": "text-25",
       "type": "text",
       "x": 400,
       "y": 310,
-      "text": "2025E ($24M)"
+      "text": "2025E ($24M ARR)"
+    },
+    {
+      "id": "text-profit",
+      "type": "text",
+      "x": 250,
+      "y": 150,
+      "text": "Profitability Milestone (Mid-2024)",
+      "fontSize": 16,
+      "strokeColor": "#40c057"
+    },
+    {
+      "id": "rect-margin",
+      "type": "rectangle",
+      "x": 520,
+      "y": 150,
+      "width": 100,
+      "height": 150,
+      "backgroundColor": "#ebfbee",
+      "fillStyle": "solid",
+      "text": "Gross Margin:\n85%"
     }
   ],
   "appState": {
