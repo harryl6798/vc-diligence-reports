@@ -1,5 +1,5 @@
 # Technical & Commercial Deep Dive: GPTZero Inc.
-**Internal Diligence Report - V5 Hyper-Depth Edition**
+**Internal Diligence Report - V6 Hyper-Depth & Visual Specification Edition**
 
 ---
 
@@ -34,46 +34,60 @@ The most significant technical innovation is **Origin (GPTZero Docs)**. By track
 
 ---
 
-## 3. ECONOMIC MODELING: UNIT ECONOMICS & DATA LENS
+## 3. VISUAL DESIGN SPECIFICATION (PHASE 10.5)
+To ensure the visual arguments in our diagrams capture the intimate technical and commercial details discovered in our hyper-depth harvest, we defined the following specifications for our primary diagrams.
+
+### 3.1 The Technical Architecture Spec (The Gated Stack)
+This diagram visualizes the transition from "Text Product" to "Writing Process." It maps the data journey from dual entry points (Input Text and Origin Telemetry) through the 7-layer hierarchical ensemble. We bold the components that are custom-built (Shield, ESL Module) vs. standard distilled models. The visual logic uses dashed lines for the internal ensemble gating to indicate the compute efficiency moat.
+
+### 3.2 The Market Dynamics Spec (The Data Flywheel)
+This diagram maps how GPTZero is eating legacy markets while building a new category. It identifies Turnitin as the "Slow Giant" and GPTZero as the student-first disrupter. The specification includes logic for three logical segments: Academic Integrity (High-volume wedge), Enterprise Compliance (High-margin growth), and AI Training Integrity (The "Hidden Moat"). It features a circular flywheel showing that more scans lead to more verified ground truth data, which in turn leads to better cleaning for labs and higher institutional adoption.
+
+### 3.3 The Growth & Unit Economic Spec
+This graph proves the rare "AI Profitability" thesis. It utilizes an X-Axis for time (Jan 23 to 2025E) and a Y-Axis for ARR ($0 to $24M). The trajectory line represents the 253% YoY growth curve. Annotations mark the critical "Mid-2024 Profitability" point and the "AFT Strategic Wedge." A side-bar visualization shows the 85% gross margin achieved through seat-based pricing vs. proxy-model inference costs.
+
+---
+
+## 4. ECONOMIC MODELING: UNIT ECONOMICS & DATA LENS
 GPTZero is a rare profitable AI startup, driven by high-margin enterprise contracts and a nascent data-licensing business.
 
-### 3.1 Unit Economic Audit
+### 4.1 Unit Economic Audit
 - **Inference Costs**: Standard L1-L2 checks are computationally cheap ($0.0001 per scan). However, L4 transformer inference costs ~$0.02 per long-form document. With a $15/mo student subscription, a "heavy user" scanning 100 docs per month results in a 85% gross margin.
 - **Enterprise ROI**: For school districts, the ROI is framed as "Compliance Insurance." wrongful accusations of cheating lead to expensive legal appeals and parent-teacher friction. By lowering false positives to 1-2% (vs. Turnitin's ~4% on mixed text), GPTZero saves a large district an estimated $50k/year in administrative overhead.
 - **LTV/CAC**: GPTZero’s CAC is remarkably low due to its viral bottom-up start. 40% of their enterprise leads come from "Teacher Ambassadors" who used the free tier first.
 
-### 3.2 The "Ground Truth" Revenue Flip
+### 4.2 The "Ground Truth" Revenue Flip
 GPTZero’s biggest strategic asset is its **600M+ document database**, verified as "Human Ground Truth." As frontier labs (OpenAI, Anthropic) face the "Model Collapse" crisis—where models degrade by training on AI-generated data—GPTZero’s verified human datasets become invaluable. We estimate that licensing 100M human documents at $0.01 per document to 5 labs could generate **$5M ARR with zero incremental CAC**, effectively transforming GPTZero into a data infrastructure provider.
 
 ---
 
-## 4. MARKET MAP & MOAT MATRIX: COMPETITIVE DISPLACEMENT
+## 5. MARKET MAP & MOAT MATRIX: COMPETITIVE DISPLACEMENT
 GPTZero is successfully "Sherlocking" incumbents while commoditizing bypass tools.
 
 ![Market Pillars](../diagrams/market.png)
 
-### 4.1 The "Slow Giant" Audit: Turnitin (Advance Publications)
+### 5.1 The "Slow Giant" Audit: Turnitin (Advance Publications)
 Turnitin owns the legacy relationship but is losing the "Trust War." Turnitin's detector is opaque and punitive. GPTZero has displaced Turnitin in high-growth districts (e.g., Shaker Heights, Irvine Unified) by offering the **Writing Report**—a document given to the student to *prove* their innocence. This transparency-first wedge is a classic "innovator's dilemma" for Turnitin, whose business model is built on institutional forensics, not student empowerment.
 
-### 4.2 The "Bypass" Economics: StealthGPT & Undetectable AI
+### 5.2 The "Bypass" Economics: StealthGPT & Undetectable AI
 "AI Humanizer" tools charge ~$20/mo to bypass detectors. Our findings show that **GPTZero Shield catches 65% of their outputs**. This forces these companies into a constant R&D cycle, increasing their churn rates and reducing their LTV. GPTZero is effectively "raising the floor" of what it costs to bypass detection, making it a "loss-leader" for cheaters.
 
 ---
 
-## 5. RISK & PLATFORM DISPLACEMENT: THE "SHERLOCKING" TEST
+## 6. RISK & PLATFORM DISPLACEMENT: THE "SHERLOCKING" TEST
 The primary risk is a platform-level move by OpenAI or Microsoft (e.g., a "verified" watermark).
 
-### 5.1 The OpenAI Pivot
+### 6.1 The OpenAI Pivot
 OpenAI recently sunset its own detector, citing low accuracy. This move validates GPTZero’s specialized focus. However, if OpenAI were to release a high-fidelity "Watermarking" API, GPTZero's static detection revenue would be at risk. 
 **Mitigation**: GPTZero’s "Origin" telemetry (keystroke dynamics) provides a data source that OpenAI does not have. Even if OpenAI watermarks its *output*, it cannot prove the *absence* of AI without the browser-level telemetry that GPTZero owns.
 
-### 5.2 Adversarial Forgery (The "Timing-Forgery" Risk)
+### 6.2 Adversarial Forgery (The "Timing-Forgery" Risk)
 A material risk was identified in early 2026 research: simple GANs can now simulate "human-like" typing rhythms. 
 **Finding**: To maintain its moat, GPTZero must move from "Cadence Analysis" to **"Revision Graph Analysis"** (tracking non-linear edits). Our audit of the "Origin" feature set suggests they are already tracking revision history, indicating a proactive defensive posture.
 
 ---
 
-## 6. MASTER VC DILIGENCE QUESTIONNAIRE (PHASE 8)
+## 7. MASTER VC DILIGENCE QUESTIONNAIRE (PHASE 8)
 *Selected & Contextualized for GPTZero's Series A+ Stage.*
 
 1.  **Technical Transfer**: "How has Alex Cui’s background in autonomous vehicle 'contingency planning' specifically informed the L4 Deep Learning Layer's trajectory refinement?"
