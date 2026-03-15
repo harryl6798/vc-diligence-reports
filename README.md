@@ -5,9 +5,6 @@ This repository contains a collection of comprehensive Venture Capital due dilig
 ## 📂 Portfolio Structure
 
 - **[cashmere/](./cashmere)**: Infrastructure platform for AI content management and licensing in the publishing industry.
-- **[youlearn_ai/](./youlearn_ai)**: Personalized AI learning companion and course generation platform.
-- **[youlearn_v2/](./youlearn_v2)**: Advanced iteration of the YouLearn AI diligence focusing on the "Inference Flip" and agentic scaling.
-- **[mecha_health/](./mecha_health)**: AI-driven personalized health and metabolic optimization platform.
 
 ## 🛠️ Methodology
 
