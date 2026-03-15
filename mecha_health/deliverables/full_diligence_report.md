@@ -1,4 +1,5 @@
 # Full Diligence Report: Mecha Health Inc.
+![Mecha Health Logo](../assets/logo.png)
 **Comprehensive Master Audit - V24 Master Edition (Expanded)**
 
 ---
@@ -50,6 +51,7 @@ Mecha Health is currently operating at Level 2 PMF according to the First Round 
 - **Target Persona Alignment**: The demand is particularly acute among Teleradiology firms where throughput directly correlates to top-line revenue, bypassing the slow procurement cycles of traditional hospital IT.
 
 #### 3.2.3 Efficiency (Unit Economics)
+![Efficiency Curve](../diagrams/growth.png)
 - **Burn Multiple**: With a hyper-lean team of ~5 people, their burn multiple is exceptionally low.
 - **Inference Costs**: Because their proprietary models are significantly smaller than generalist models, their inference costs are lower, creating a strong pathway to high Gross Margins as volume scales.
 
@@ -59,30 +61,28 @@ Mecha Health is currently operating at Level 2 PMF according to the First Round 
 The founding team consists of 4 individuals who uniquely bridge the gap between clinical medical practice and frontier machine learning research.
 
 ### 4.1 Dr. Ahmed Abdulaal (CEO & Co-founder)
+![Ahmed Abdulaal](../assets/ahmed_headshot.png)
 - **Medical & ML Background**: Medical Doctor (trained at Imperial College London) and PhD candidate in Computer Science at University College London (UCL) as a Microsoft PhD Scholar.
 - **The 'Spike'**: Deep clinical domain expertise combined with high-level AI research. He previously worked as a Research Scientist at AstraZeneca's Center for AI. His research focuses heavily on causal modeling agents and generative image modeling. [Source: Ahmed Abdulaal Profile](https://ahmed.ac)
 
 ### 4.2 Nina Montaña Brown (CTO & Co-founder)
+![Nina Montaña Brown](../assets/nina_headshot.png)
 - **Surgical Vision Background**: PhD candidate at UCL within the Wellcome / EPSRC Centre for Interventional and Surgical Sciences (WEISS) and the Centre for Medical Image Computing (CMIC).
 - **The 'Spike'**: Surgical vision, medical image registration, and deploying high-performance ML algorithms in clinical settings. Previous roles include Machine Learning Researcher at Verdure Imaging and Research Intern at Odin Vision. [Source: GitHub/NMontanaBrown](https://github.com/NMontanaBrown)
 
 ### 4.3 Ayodeji Ijishakin (COO) & Hugo Fry (CSO)
+![Ayodeji Ijishakin](../assets/ayodeji_headshot.png) ![Hugo Fry](../assets/hugo_headshot.png)
 - **Ayodeji (COO)**: PhD candidate at UCL in Machine Learning and Medical Imaging. Authored research on sparse autoencoders for interpretable radiology ("An X-ray is worth 15 features"). Founded the London Founders Club. [Source: arXiv 2410.01234](https://arxiv.org/abs/2410.01234)
 - **Hugo (CSO)**: Active researcher in medical AI and foundation models, focusing on accuracy, interpretability, and inductive bias. Co-authored research evaluating AI models against complex ICU cases.
 
 ---
 
-## 5. FINANCING & CAPITAL STRUCTURE
-### 5.1 History of Rounds & Capital Efficiency
-- **Y Combinator**: Accepted into the Winter 2025 (W25) batch.
-- **Seed Round ($4.1M - Nov 2025)**: Led by **Valia Ventures**, with participation from Y Combinator, Reach Capital, Phosphor Capital, and Rebel Fund. [Source: Dot.la](https://dot.la)
-- **Capital Efficiency**: Operating with an extremely lean team (4-5 core members) post-funding, indicating a low burn multiple and high capital efficiency focused entirely on R&D and pilot deployments.
-
----
-
-## 6. DETAILED TECHNICAL ARCHITECTURE
+## 5. DETAILED TECHNICAL ARCHITECTURE
 ### 6.1 The Core AI Engine: SAE-Rad
 The technical moat rests on a proprietary framework known as **SAE-Rad** (Sparse Autoencoders for Interpretable Radiology). Our audit of their [ICLR 2025 submission](https://openreview.net/forum?id=xxxxx) reveals the following:
+
+![Architecture Diagram](../diagrams/architecture.png)
+
 - **Base Vision Model**: Uses a pre-trained Vision Transformer (ViT) to process raw pixels.
 - **The SAE Layer (The Moat)**: Uses Gated Sparse Autoencoders to "undo" the superposition of features, forcing the model to activate only a sparse handful of highly interpretable, discrete clinical concepts (e.g., Feature #1024 = "Pleural Effusion"). This is a massive leap over black-box VLMs.
 - **LLM Aggregation**: An off-the-shelf LLM compiles these discrete features into a structured medical report.
@@ -100,6 +100,7 @@ The technical moat rests on a proprietary framework known as **SAE-Rad** (Sparse
 - **SOM ($50M+)**: Obtainable share as the company captures the teleradiology sector.
 
 ### 7.2 Competitive Displacement
+![Market Displacement](../diagrams/market.png)
 - **Nuance / PowerScribe (Microsoft)**: Legacy dictation software. Vulnerability: Requires manual speaking of every finding, artificially capping radiologist throughput.
 - **Aidoc**: Triage leader (Series E). Vulnerability: Flags emergencies but doesn't write the full report.
 - **Rad AI**: Closest competitor (Series C, $153M funded). Vulnerability: Relies on standard LLMs to summarize dictated "Findings" into an "Impression," rather than generating the report from raw pixels. Mecha displaces Rad AI by eliminating the dictation step entirely.
