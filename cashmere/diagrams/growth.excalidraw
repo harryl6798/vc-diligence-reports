@@ -1,0 +1,124 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "title_growth",
+      "type": "text",
+      "x": 400, "y": 50, "width": 400, "height": 40,
+      "text": "Cashmere.io: The Content-AI Flywheel",
+      "originalText": "Cashmere.io: The Content-AI Flywheel",
+      "fontSize": 28, "fontFamily": 3, "textAlign": "center", "verticalAlign": "top",
+      "strokeColor": "#1e40af", "backgroundColor": "transparent",
+      "seed": 120001, "version": 1, "versionNonce": 120002, "isDeleted": false, "groupIds": [], "boundElements": [], "link": null, "locked": false, "containerId": null, "lineHeight": 1.25
+    },
+    {
+      "id": "core_flywheel",
+      "type": "ellipse",
+      "x": 450, "y": 250, "width": 200, "height": 200,
+      "strokeColor": "#1e3a5f", "backgroundColor": "#dbeafe",
+      "seed": 120003, "version": 1, "versionNonce": 120004, "isDeleted": false, "groupIds": [], "boundElements": [{"id": "core_text", "type": "text"}], "link": null, "locked": false, "strokeStyle": "dashed"
+    },
+    {
+      "id": "core_text",
+      "type": "text",
+      "x": 470, "y": 320, "width": 160, "height": 60,
+      "text": "Data Network\nEffect",
+      "originalText": "Data Network\nEffect",
+      "fontSize": 20, "fontFamily": 3, "textAlign": "center", "verticalAlign": "middle",
+      "strokeColor": "#1e40af", "backgroundColor": "transparent",
+      "seed": 120005, "version": 1, "versionNonce": 120006, "isDeleted": false, "groupIds": [], "boundElements": [], "link": null, "locked": false, "containerId": "core_flywheel", "lineHeight": 1.25
+    },
+    {
+      "id": "node_pub",
+      "type": "rectangle",
+      "x": 450, "y": 100, "width": 200, "height": 80,
+      "strokeColor": "#1e3a5f", "backgroundColor": "#3b82f6",
+      "seed": 120007, "version": 1, "versionNonce": 120008, "isDeleted": false, "groupIds": [], "boundElements": [{"id": "node_pub_text", "type": "text"}, {"id": "arrow_f1", "type": "arrow"}], "link": null, "locked": false, "roundness": {"type": 3}
+    },
+    {
+      "id": "node_pub_text",
+      "type": "text",
+      "x": 460, "y": 117, "width": 180, "height": 45,
+      "text": "More Publishers\n(Premium Content)",
+      "originalText": "More Publishers\n(Premium Content)",
+      "fontSize": 18, "fontFamily": 3, "textAlign": "center", "verticalAlign": "middle",
+      "strokeColor": "#ffffff", "backgroundColor": "transparent",
+      "seed": 120009, "version": 1, "versionNonce": 120010, "isDeleted": false, "groupIds": [], "boundElements": [], "link": null, "locked": false, "containerId": "node_pub", "lineHeight": 1.25
+    },
+    {
+      "id": "node_agent",
+      "type": "rectangle",
+      "x": 750, "y": 310, "width": 200, "height": 80,
+      "strokeColor": "#1e3a5f", "backgroundColor": "#60a5fa",
+      "seed": 120011, "version": 1, "versionNonce": 120012, "isDeleted": false, "groupIds": [], "boundElements": [{"id": "node_agent_text", "type": "text"}, {"id": "arrow_f2", "type": "arrow"}], "link": null, "locked": false, "roundness": {"type": 3}
+    },
+    {
+      "id": "node_agent_text",
+      "type": "text",
+      "x": 760, "y": 327, "width": 180, "height": 45,
+      "text": "More AI Agents\n(Usage/Inference)",
+      "originalText": "More AI Agents\n(Usage/Inference)",
+      "fontSize": 18, "fontFamily": 3, "textAlign": "center", "verticalAlign": "middle",
+      "strokeColor": "#374151", "backgroundColor": "transparent",
+      "seed": 120013, "version": 1, "versionNonce": 120014, "isDeleted": false, "groupIds": [], "boundElements": [], "link": null, "locked": false, "containerId": "node_agent", "lineHeight": 1.25
+    },
+    {
+      "id": "node_rev",
+      "type": "rectangle",
+      "x": 150, "y": 310, "width": 200, "height": 80,
+      "strokeColor": "#047857", "backgroundColor": "#a7f3d0",
+      "seed": 120015, "version": 1, "versionNonce": 120016, "isDeleted": false, "groupIds": [], "boundElements": [{"id": "node_rev_text", "type": "text"}, {"id": "arrow_f3", "type": "arrow"}], "link": null, "locked": false, "roundness": {"type": 3}
+    },
+    {
+      "id": "node_rev_text",
+      "type": "text",
+      "x": 160, "y": 327, "width": 180, "height": 45,
+      "text": "Higher Revenue\n& Usage Insights",
+      "originalText": "Higher Revenue\n& Usage Insights",
+      "fontSize": 18, "fontFamily": 3, "textAlign": "center", "verticalAlign": "middle",
+      "strokeColor": "#047857", "backgroundColor": "transparent",
+      "seed": 120017, "version": 1, "versionNonce": 120018, "isDeleted": false, "groupIds": [], "boundElements": [], "link": null, "locked": false, "containerId": "node_rev", "lineHeight": 1.25
+    },
+    {
+      "id": "arrow_f1",
+      "type": "arrow",
+      "x": 655, "y": 160, "width": 115, "height": 140,
+      "strokeColor": "#1e3a5f", "backgroundColor": "transparent",
+      "seed": 120019, "version": 1, "versionNonce": 120020, "isDeleted": false, "groupIds": [], "boundElements": [], "link": null, "locked": false,
+      "points": [[0, 0], [100, 40], [115, 140]],
+      "startBinding": {"elementId": "node_pub", "focus": 0, "gap": 2},
+      "endBinding": {"elementId": "node_agent", "focus": 0, "gap": 2},
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "arrow_f2",
+      "type": "arrow",
+      "x": 745, "y": 370, "width": 390, "height": 100,
+      "strokeColor": "#1e3a5f", "backgroundColor": "transparent",
+      "seed": 120021, "version": 1, "versionNonce": 120022, "isDeleted": false, "groupIds": [], "boundElements": [], "link": null, "locked": false,
+      "points": [[0, 0], [-200, 100], [-390, 20]],
+      "startBinding": {"elementId": "node_agent", "focus": 0, "gap": 2},
+      "endBinding": {"elementId": "node_rev", "focus": 0, "gap": 2},
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "arrow_f3",
+      "type": "arrow",
+      "x": 180, "y": 305, "width": 260, "height": 180,
+      "strokeColor": "#047857", "backgroundColor": "transparent",
+      "seed": 120023, "version": 1, "versionNonce": 120024, "isDeleted": false, "groupIds": [], "boundElements": [], "link": null, "locked": false,
+      "points": [[0, 0], [40, -180], [260, -130]],
+      "startBinding": {"elementId": "node_rev", "focus": 0, "gap": 2},
+      "endBinding": {"elementId": "node_pub", "focus": 0, "gap": 2},
+      "endArrowhead": "arrow"
+    }
+  ],
+  "appState": {
+    "theme": "light",
+    "viewBackgroundColor": "#ffffff",
+    "gridSize": 20
+  },
+  "files": {}
+}

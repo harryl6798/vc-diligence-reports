@@ -1,0 +1,130 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "title_market",
+      "type": "text",
+      "x": 400, "y": 50, "width": 400, "height": 40,
+      "text": "Cashmere.io: Strategic Market Positioning",
+      "originalText": "Cashmere.io: Strategic Market Positioning",
+      "fontSize": 28, "fontFamily": 3, "textAlign": "center", "verticalAlign": "top",
+      "strokeColor": "#1e40af", "backgroundColor": "transparent",
+      "seed": 110001, "version": 1, "versionNonce": 110002, "isDeleted": false, "groupIds": [], "boundElements": [], "link": null, "locked": false, "containerId": null, "lineHeight": 1.25
+    },
+    {
+      "id": "axis_v",
+      "type": "line",
+      "x": 300, "y": 150, "width": 0, "height": 400,
+      "strokeColor": "#1e3a5f", "backgroundColor": "transparent",
+      "seed": 110003, "version": 1, "versionNonce": 110004, "isDeleted": false, "groupIds": [], "boundElements": [], "link": null, "locked": false,
+      "points": [[0, 0], [0, 400]]
+    },
+    {
+      "id": "axis_h",
+      "type": "line",
+      "x": 300, "y": 550, "width": 600, "height": 0,
+      "strokeColor": "#1e3a5f", "backgroundColor": "transparent",
+      "seed": 110005, "version": 1, "versionNonce": 110006, "isDeleted": false, "groupIds": [], "boundElements": [], "link": null, "locked": false,
+      "points": [[0, 0], [600, 0]]
+    },
+    {
+      "id": "label_v_high",
+      "type": "text",
+      "x": 150, "y": 150, "width": 140, "height": 25,
+      "text": "High Value (Books)",
+      "originalText": "High Value (Books)",
+      "fontSize": 14, "fontFamily": 3, "textAlign": "right", "verticalAlign": "middle",
+      "strokeColor": "#64748b", "backgroundColor": "transparent",
+      "seed": 110007, "version": 1, "versionNonce": 110008, "isDeleted": false, "groupIds": [], "boundElements": [], "link": null, "locked": false, "containerId": null, "lineHeight": 1.25
+    },
+    {
+      "id": "label_v_low",
+      "type": "text",
+      "x": 150, "y": 525, "width": 140, "height": 25,
+      "text": "Low Value (Web)",
+      "originalText": "Low Value (Web)",
+      "fontSize": 14, "fontFamily": 3, "textAlign": "right", "verticalAlign": "middle",
+      "strokeColor": "#64748b", "backgroundColor": "transparent",
+      "seed": 110009, "version": 1, "versionNonce": 110010, "isDeleted": false, "groupIds": [], "boundElements": [], "link": null, "locked": false, "containerId": null, "lineHeight": 1.25
+    },
+    {
+      "id": "label_h_manual",
+      "type": "text",
+      "x": 300, "y": 570, "width": 150, "height": 25,
+      "text": "Manual / Admin",
+      "originalText": "Manual / Admin",
+      "fontSize": 14, "fontFamily": 3, "textAlign": "left", "verticalAlign": "middle",
+      "strokeColor": "#64748b", "backgroundColor": "transparent",
+      "seed": 110011, "version": 1, "versionNonce": 110012, "isDeleted": false, "groupIds": [], "boundElements": [], "link": null, "locked": false, "containerId": null, "lineHeight": 1.25
+    },
+    {
+      "id": "label_h_agentic",
+      "type": "text",
+      "x": 750, "y": 570, "width": 150, "height": 25,
+      "text": "Agentic / API-first",
+      "originalText": "Agentic / API-first",
+      "fontSize": 14, "fontFamily": 3, "textAlign": "right", "verticalAlign": "middle",
+      "strokeColor": "#64748b", "backgroundColor": "transparent",
+      "seed": 110013, "version": 1, "versionNonce": 110014, "isDeleted": false, "groupIds": [], "boundElements": [], "link": null, "locked": false, "containerId": null, "lineHeight": 1.25
+    },
+    {
+      "id": "pos_ccc",
+      "type": "ellipse",
+      "x": 350, "y": 200, "width": 120, "height": 80,
+      "strokeColor": "#1e40af", "backgroundColor": "#dbeafe",
+      "seed": 110015, "version": 1, "versionNonce": 110016, "isDeleted": false, "groupIds": [], "boundElements": [{"id": "pos_ccc_text", "type": "text"}], "link": null, "locked": false, "strokeStyle": "dashed"
+    },
+    {
+      "id": "pos_ccc_text",
+      "type": "text",
+      "x": 360, "y": 227, "width": 100, "height": 25,
+      "text": "CCC",
+      "originalText": "CCC",
+      "fontSize": 16, "fontFamily": 3, "textAlign": "center", "verticalAlign": "middle",
+      "strokeColor": "#1e40af", "backgroundColor": "transparent",
+      "seed": 110017, "version": 1, "versionNonce": 110018, "isDeleted": false, "groupIds": [], "boundElements": [], "link": null, "locked": false, "containerId": "pos_ccc", "lineHeight": 1.25
+    },
+    {
+      "id": "pos_tollbit",
+      "type": "ellipse",
+      "x": 700, "y": 450, "width": 120, "height": 80,
+      "strokeColor": "#1e3a5f", "backgroundColor": "#60a5fa",
+      "seed": 110019, "version": 1, "versionNonce": 110020, "isDeleted": false, "groupIds": [], "boundElements": [{"id": "pos_tollbit_text", "type": "text"}], "link": null, "locked": false
+    },
+    {
+      "id": "pos_tollbit_text",
+      "type": "text",
+      "x": 710, "y": 477, "width": 100, "height": 25,
+      "text": "TollBit",
+      "originalText": "TollBit",
+      "fontSize": 16, "fontFamily": 3, "textAlign": "center", "verticalAlign": "middle",
+      "strokeColor": "#374151", "backgroundColor": "transparent",
+      "seed": 110021, "version": 1, "versionNonce": 110022, "isDeleted": false, "groupIds": [], "boundElements": [], "link": null, "locked": false, "containerId": "pos_tollbit", "lineHeight": 1.25
+    },
+    {
+      "id": "pos_cashmere",
+      "type": "ellipse",
+      "x": 750, "y": 180, "width": 150, "height": 100,
+      "strokeColor": "#1e3a5f", "backgroundColor": "#3b82f6",
+      "seed": 110023, "version": 1, "versionNonce": 110024, "isDeleted": false, "groupIds": [], "boundElements": [{"id": "pos_cashmere_text", "type": "text"}], "link": null, "locked": false
+    },
+    {
+      "id": "pos_cashmere_text",
+      "type": "text",
+      "x": 760, "y": 217, "width": 130, "height": 25,
+      "text": "Cashmere.io",
+      "originalText": "Cashmere.io",
+      "fontSize": 18, "fontFamily": 3, "textAlign": "center", "verticalAlign": "middle",
+      "strokeColor": "#ffffff", "backgroundColor": "transparent",
+      "seed": 110025, "version": 1, "versionNonce": 110026, "isDeleted": false, "groupIds": [], "boundElements": [], "link": null, "locked": false, "containerId": "pos_cashmere", "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "theme": "light",
+    "viewBackgroundColor": "#ffffff",
+    "gridSize": 20
+  },
+  "files": {}
+}

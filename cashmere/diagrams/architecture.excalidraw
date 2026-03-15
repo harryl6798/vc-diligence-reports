@@ -1,0 +1,213 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "title_main",
+      "type": "text",
+      "x": 400, "y": 50, "width": 400, "height": 40,
+      "text": "Cashmere.io: Inference-Time Licensing Architecture",
+      "originalText": "Cashmere.io: Inference-Time Licensing Architecture",
+      "fontSize": 28, "fontFamily": 3, "textAlign": "center", "verticalAlign": "top",
+      "strokeColor": "#1e40af", "backgroundColor": "transparent",
+      "seed": 100001, "version": 1, "versionNonce": 100002, "isDeleted": false, "groupIds": [], "boundElements": [], "link": null, "locked": false, "containerId": null, "lineHeight": 1.25
+    },
+    {
+      "id": "section1_label",
+      "type": "text",
+      "x": 100, "y": 150, "width": 200, "height": 25,
+      "text": "PHASE 1: INGESTION",
+      "originalText": "PHASE 1: INGESTION",
+      "fontSize": 20, "fontFamily": 3, "textAlign": "left", "verticalAlign": "top",
+      "strokeColor": "#1e40af", "backgroundColor": "transparent",
+      "seed": 100003, "version": 1, "versionNonce": 100004, "isDeleted": false, "groupIds": [], "boundElements": [], "link": null, "locked": false, "containerId": null, "lineHeight": 1.25
+    },
+    {
+      "id": "pub_books",
+      "type": "rectangle",
+      "x": 100, "y": 200, "width": 180, "height": 60,
+      "strokeColor": "#c2410c", "backgroundColor": "#fed7aa",
+      "seed": 100005, "version": 1, "versionNonce": 100006, "isDeleted": false, "groupIds": [], "boundElements": [{"id": "pub_books_text", "type": "text"}, {"id": "arrow_ingest_1", "type": "arrow"}], "link": null, "locked": false, "roundness": {"type": 3}
+    },
+    {
+      "id": "pub_books_text",
+      "type": "text",
+      "x": 110, "y": 217, "width": 160, "height": 25,
+      "text": "Books / Journals",
+      "originalText": "Books / Journals",
+      "fontSize": 16, "fontFamily": 3, "textAlign": "center", "verticalAlign": "middle",
+      "strokeColor": "#374151", "backgroundColor": "transparent",
+      "seed": 100007, "version": 1, "versionNonce": 100008, "isDeleted": false, "groupIds": [], "boundElements": [], "link": null, "locked": false, "containerId": "pub_books", "lineHeight": 1.25
+    },
+    {
+      "id": "pub_archives",
+      "type": "rectangle",
+      "x": 100, "y": 280, "width": 180, "height": 60,
+      "strokeColor": "#c2410c", "backgroundColor": "#fed7aa",
+      "seed": 100009, "version": 1, "versionNonce": 100010, "isDeleted": false, "groupIds": [], "boundElements": [{"id": "pub_archives_text", "type": "text"}, {"id": "arrow_ingest_2", "type": "arrow"}], "link": null, "locked": false, "roundness": {"type": 3}
+    },
+    {
+      "id": "pub_archives_text",
+      "type": "text",
+      "x": 110, "y": 297, "width": 160, "height": 25,
+      "text": "Premium Archives",
+      "originalText": "Premium Archives",
+      "fontSize": 16, "fontFamily": 3, "textAlign": "center", "verticalAlign": "middle",
+      "strokeColor": "#374151", "backgroundColor": "transparent",
+      "seed": 100011, "version": 1, "versionNonce": 100012, "isDeleted": false, "groupIds": [], "boundElements": [], "link": null, "locked": false, "containerId": "pub_archives", "lineHeight": 1.25
+    },
+    {
+      "id": "omnipub_bg",
+      "type": "rectangle",
+      "x": 400, "y": 180, "width": 250, "height": 200,
+      "strokeColor": "#1e3a5f", "backgroundColor": "#3b82f6",
+      "seed": 200001, "version": 1, "versionNonce": 200002, "isDeleted": false, "groupIds": [], "boundElements": [{"id": "omnipub_label", "type": "text"}, {"id": "arrow_kg_to_fiber", "type": "arrow"}], "link": null, "locked": false, "roundness": {"type": 3}
+    },
+    {
+      "id": "omnipub_label",
+      "type": "text",
+      "x": 410, "y": 190, "width": 230, "height": 25,
+      "text": "OMNIPUB KNOWLEDGE GRAPH",
+      "originalText": "OMNIPUB KNOWLEDGE GRAPH",
+      "fontSize": 16, "fontFamily": 3, "textAlign": "center", "verticalAlign": "top",
+      "strokeColor": "#ffffff", "backgroundColor": "transparent",
+      "seed": 200003, "version": 1, "versionNonce": 200004, "isDeleted": false, "groupIds": [], "boundElements": [], "link": null, "locked": false, "containerId": "omnipub_bg", "lineHeight": 1.25
+    },
+    {
+      "id": "omnipub_artifact_bg",
+      "type": "rectangle",
+      "x": 420, "y": 230, "width": 210, "height": 130,
+      "strokeColor": "#1e293b", "backgroundColor": "#1e293b",
+      "seed": 200005, "version": 1, "versionNonce": 200006, "isDeleted": false, "groupIds": [], "boundElements": [{"id": "omnipub_code", "type": "text"}], "link": null, "locked": false, "roundness": {"type": 2}
+    },
+    {
+      "id": "omnipub_code",
+      "type": "text",
+      "x": 430, "y": 240, "width": 190, "height": 100,
+      "text": "{\n  \"type\": \"Habit\",\n  \"source\": \"Atomic Habits\",\n  \"tokens\": 450,\n  \"rights\": \"metered\"\n}",
+      "originalText": "{\n  \"type\": \"Habit\",\n  \"source\": \"Atomic Habits\",\n  \"tokens\": 450,\n  \"rights\": \"metered\"\n}",
+      "fontSize": 14, "fontFamily": 3, "textAlign": "left", "verticalAlign": "top",
+      "strokeColor": "#22c55e", "backgroundColor": "transparent",
+      "seed": 200007, "version": 1, "versionNonce": 200008, "isDeleted": false, "groupIds": [], "boundElements": [], "link": null, "locked": false, "containerId": "omnipub_artifact_bg", "lineHeight": 1.25
+    },
+    {
+      "id": "arrow_ingest_1",
+      "type": "arrow",
+      "x": 282, "y": 230, "width": 118, "height": 0,
+      "strokeColor": "#c2410c", "backgroundColor": "transparent",
+      "seed": 100013, "version": 1, "versionNonce": 100014, "isDeleted": false, "groupIds": [], "boundElements": [], "link": null, "locked": false,
+      "points": [[0, 0], [118, 50]],
+      "startBinding": {"elementId": "pub_books", "focus": 0, "gap": 2},
+      "endBinding": {"elementId": "omnipub_bg", "focus": 0, "gap": 2},
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "arrow_ingest_2",
+      "type": "arrow",
+      "x": 282, "y": 310, "width": 118, "height": 0,
+      "strokeColor": "#c2410c", "backgroundColor": "transparent",
+      "seed": 100015, "version": 1, "versionNonce": 100016, "isDeleted": false, "groupIds": [], "boundElements": [], "link": null, "locked": false,
+      "points": [[0, 0], [118, -30]],
+      "startBinding": {"elementId": "pub_archives", "focus": 0, "gap": 2},
+      "endBinding": {"elementId": "omnipub_bg", "focus": 0, "gap": 2},
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "fiber_bg",
+      "type": "rectangle",
+      "x": 750, "y": 180, "width": 250, "height": 200,
+      "strokeColor": "#1e3a5f", "backgroundColor": "#60a5fa",
+      "seed": 300001, "version": 1, "versionNonce": 300002, "isDeleted": false, "groupIds": [], "boundElements": [{"id": "fiber_label", "type": "text"}, {"id": "arrow_fiber_to_agent", "type": "arrow"}], "link": null, "locked": false, "roundness": {"type": 3}
+    },
+    {
+      "id": "fiber_label",
+      "type": "text",
+      "x": 760, "y": 190, "width": 230, "height": 25,
+      "text": "FIBER GATEWAY",
+      "originalText": "FIBER GATEWAY",
+      "fontSize": 16, "fontFamily": 3, "textAlign": "center", "verticalAlign": "top",
+      "strokeColor": "#ffffff", "backgroundColor": "transparent",
+      "seed": 300003, "version": 1, "versionNonce": 300004, "isDeleted": false, "groupIds": [], "boundElements": [], "link": null, "locked": false, "containerId": "fiber_bg", "lineHeight": 1.25
+    },
+    {
+      "id": "fiber_rights",
+      "type": "rectangle",
+      "x": 770, "y": 230, "width": 210, "height": 40,
+      "strokeColor": "#b45309", "backgroundColor": "#fef3c7",
+      "seed": 300005, "version": 1, "versionNonce": 300006, "isDeleted": false, "groupIds": [], "boundElements": [{"id": "fiber_rights_text", "type": "text"}], "link": null, "locked": false, "roundness": {"type": 3}
+    },
+    {
+      "id": "fiber_rights_text",
+      "type": "text",
+      "x": 780, "y": 237, "width": 190, "height": 25,
+      "text": "Rights Enforcement",
+      "originalText": "Rights Enforcement",
+      "fontSize": 14, "fontFamily": 3, "textAlign": "center", "verticalAlign": "middle",
+      "strokeColor": "#374151", "backgroundColor": "transparent",
+      "seed": 300007, "version": 1, "versionNonce": 300008, "isDeleted": false, "groupIds": [], "boundElements": [], "link": null, "locked": false, "containerId": "fiber_rights", "lineHeight": 1.25
+    },
+    {
+      "id": "fiber_byol",
+      "type": "rectangle",
+      "x": 770, "y": 290, "width": 210, "height": 40,
+      "strokeColor": "#1e3a5f", "backgroundColor": "#dbeafe",
+      "seed": 300009, "version": 1, "versionNonce": 300010, "isDeleted": false, "groupIds": [], "boundElements": [{"id": "fiber_byol_text", "type": "text"}], "link": null, "locked": false, "roundness": {"type": 3}, "strokeStyle": "dashed"
+    },
+    {
+      "id": "fiber_byol_text",
+      "type": "text",
+      "x": 780, "y": 297, "width": 190, "height": 25,
+      "text": "BYOL Auth (SSO)",
+      "originalText": "BYOL Auth (SSO)",
+      "fontSize": 14, "fontFamily": 3, "textAlign": "center", "verticalAlign": "middle",
+      "strokeColor": "#1e40af", "backgroundColor": "transparent",
+      "seed": 300011, "version": 1, "versionNonce": 300012, "isDeleted": false, "groupIds": [], "boundElements": [], "link": null, "locked": false, "containerId": "fiber_byol", "lineHeight": 1.25
+    },
+    {
+      "id": "agent_bg",
+      "type": "ellipse",
+      "x": 1100, "y": 230, "width": 180, "height": 100,
+      "strokeColor": "#6d28d9", "backgroundColor": "#ddd6fe",
+      "seed": 400001, "version": 1, "versionNonce": 400002, "isDeleted": false, "groupIds": [], "boundElements": [{"id": "agent_label", "type": "text"}], "link": null, "locked": false
+    },
+    {
+      "id": "agent_label",
+      "type": "text",
+      "x": 1130, "y": 255, "width": 120, "height": 50,
+      "text": "AI Search Agents\n(Perplexity)",
+      "originalText": "AI Search Agents\n(Perplexity)",
+      "fontSize": 16, "fontFamily": 3, "textAlign": "center", "verticalAlign": "middle",
+      "strokeColor": "#6d28d9", "backgroundColor": "transparent",
+      "seed": 400003, "version": 1, "versionNonce": 400004, "isDeleted": false, "groupIds": [], "boundElements": [], "link": null, "locked": false, "containerId": "agent_bg", "lineHeight": 1.25
+    },
+    {
+      "id": "arrow_kg_to_fiber",
+      "type": "arrow",
+      "x": 652, "y": 280, "width": 96, "height": 0,
+      "strokeColor": "#1e3a5f", "backgroundColor": "transparent",
+      "seed": 200009, "version": 1, "versionNonce": 200010, "isDeleted": false, "groupIds": [], "boundElements": [], "link": null, "locked": false,
+      "points": [[0, 0], [96, 0]],
+      "startBinding": {"elementId": "omnipub_bg", "focus": 0, "gap": 2},
+      "endBinding": {"elementId": "fiber_bg", "focus": 0, "gap": 2},
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "arrow_fiber_to_agent",
+      "type": "arrow",
+      "x": 1002, "y": 280, "width": 96, "height": 0,
+      "strokeColor": "#1e3a5f", "backgroundColor": "transparent",
+      "seed": 300013, "version": 1, "versionNonce": 300014, "isDeleted": false, "groupIds": [], "boundElements": [], "link": null, "locked": false,
+      "points": [[0, 0], [96, 0]],
+      "startBinding": {"elementId": "fiber_bg", "focus": 0, "gap": 2},
+      "endBinding": {"elementId": "agent_bg", "focus": 0, "gap": 2},
+      "endArrowhead": "arrow"
+    }
+  ],
+  "appState": {
+    "theme": "light",
+    "viewBackgroundColor": "#ffffff",
+    "gridSize": 20
+  },
+  "files": {}
+}
